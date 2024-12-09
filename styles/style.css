@@ -90,8 +90,6 @@ ol {
 
 .title {
   font-family: Oswald, Arial, Helvetica, sans-serif;
-  position: absolute;
-  top: 127px;
   font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
@@ -107,10 +105,9 @@ ol {
 }
 
 .content__list {
-  position: relative;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
-  top: 114px;
+  margin-top: 24px;
 }
 
 .content__list-item {
