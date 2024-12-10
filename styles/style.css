@@ -168,12 +168,12 @@ ol {
   cursor: pointer;
 }
 
-.content__card-link_current {
+.content__card-link:active {
   background-color: rgb(84 80 80);
   text-decoration: none;
 }
 
-.content__card-link_current:active {
+.content__card-link_current {
   background-color: rgb(84 80 80);
   text-decoration: none;
 }
